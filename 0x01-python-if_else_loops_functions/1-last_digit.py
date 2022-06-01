@@ -10,5 +10,5 @@ if number1 > 5:
 elif number1 == 0:
     print(short, '{} is {} and is 0'.format(number, number1))
 elif number1 < 6:
-    short_1 = 'and is less than '
-    print(short, '{} is {} and is less than 6 and not 0'.format(number, number1))
+    short_1 = 'Last digit of {} is {} and' 
+    print(short_1, 'is less than 6 and not 0'.format(number, number1))

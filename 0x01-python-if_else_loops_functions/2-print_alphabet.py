@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 k = ord('a')
 while k <= 122:
-    print(chr(k), end="")
+    ch = chr(k)
+    print('{}'.format(ch), end="")
     k += 1

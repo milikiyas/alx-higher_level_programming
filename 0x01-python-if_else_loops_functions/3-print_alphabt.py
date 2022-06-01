@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 k = ord('a')
 while k <= 122:
     if not(k == 101 or k == 113):

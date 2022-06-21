@@ -4,9 +4,9 @@ def safe_print_list_integers(my_list=[], x=0):
     while True:
         try:
             if index < x:
-               print('{:d}'.format(my_list[index]), end='')
-               index += 1
-               hello += 1
+                print('{:d}'.format(my_list[index]), end='')
+                index += 1
+                hello += 1
             else:
                 print()
                 return hello

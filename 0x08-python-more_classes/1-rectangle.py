@@ -11,8 +11,8 @@ class Rectangle
         """Initializes a new Rectangle.
         
         Args:
-        width(int): the width of the new retangle.
-        height(int): the height of the new rectnagle.
+           width(int): the width of the new retangle.
+           height(int): the height of the new rectnagle.
         """
         self.width = width
         self.height = height

@@ -4,8 +4,12 @@
 
 class Rectangle:
     def __init__(self, width = 0, height = 0):
-        """ Initializes a new Rectangle."""
+        """ Initializes a new Rectangle.
         
+        Args:
+        width(int): the width of the new retangle.
+        height(int): the height of the new rectnagle.
+        """
         self.width = width
         self.height = height
     @property
